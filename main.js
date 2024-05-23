@@ -1,7 +1,11 @@
 import "./style.css";
-
-import firebase from "firebase/app";
+// import { initializeApp } from "firebase/app";
+// import { getFirestore, collection, getDocs } from "firebase/firestore/lite";
+import firebase from "https://www.gstatic.com/firebasejs/10.12.1/firebase-app.js";
+// import firebase from "firebase/app";
 import "firebase/firestore";
+
+import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.1/firebase-analytics.js";
 // import { getAnalytics } from "firebase/analytics";
 // var admin = require("firebase-admin");
 
@@ -17,6 +21,8 @@ import "firebase/firestore";
 const firebaseConfig = {
   apiKey: "AIzaSyC8GySj4-SJOSVrjc05H5mhEovD6pBUY9E",
   authDomain: "webrtc-3922f.firebaseapp.com",
+  databaseURL:
+    "https://webrtc-3922f-default-rtdb.asia-southeast1.firebasedatabase.app",
   projectId: "webrtc-3922f",
   storageBucket: "webrtc-3922f.appspot.com",
   messagingSenderId: "1022466588162",
