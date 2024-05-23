@@ -1,10 +1,11 @@
-import "./style.css";
+// import "./style.css";
 // import { initializeApp } from "firebase/app";
 // import { getFirestore, collection, getDocs } from "firebase/firestore/lite";
-import firebase from "https://www.gstatic.com/firebasejs/10.12.1/firebase-app.js";
-// import firebase from "firebase/app";
-import "firebase/firestore";
+// import firebase from "https://www.gstatic.com/firebasejs/10.12.1/firebase-app.js";
+import firebase from "firebase/app";
+// import "firebase/firestore";
 
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.1/firebase-app.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.1/firebase-analytics.js";
 // import { getAnalytics } from "firebase/analytics";
 // var admin = require("firebase-admin");
